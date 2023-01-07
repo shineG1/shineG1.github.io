@@ -64,7 +64,7 @@ header .inner #gnb li a {
 	transition: all 0.5s;
 }
 header .inner #gnb li a:hover {
-	background: #555;
+	background: rgb(0, 131, 253);
 	color: #fff;
 }
 
@@ -129,7 +129,7 @@ section .inner h1 {
 	color: #555;
 	text-align: center;
 	margin-bottom: 50px;
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 }
 /* section .inner .wrap {
 	width: 100%;
@@ -141,39 +141,48 @@ section .inner .wrap::after {
 	display: block;
 	clear: both;
 }
-section .inner .wrap article {
-	width: 280px;
-	float: left;
-	margin-right: 20px;
+
+section .inner .wrap .aboutme_wrap{
+	display: flex;
+	outline: 1px solid pink;
+	/* margin: 10px; */
+	background-color: rgb(250, 139, 139);
 }
-section .inner .wrap article:last-child {
-	/*제일 오른쪽 마지막 요소만 여백제거*/
-	margin-right: 0px;
+
+section .inner .wrap .aboutme_wrap .aboutme_pic{
+	outline: 1px solid red;
+	flex: 3;
+	padding: 10px;
 }
-section .inner .wrap article h2 {
-	margin-bottom: 10px;
+section .inner .wrap .aboutme_wrap .aboutme_pic img{
+	width: 500px;
 }
-section .inner .wrap article h2 a {
-	font: bold 16px/1 "arial";
-	color: #555;
+
+
+
+section .inner .wrap .aboutme_wrap .aboutme_text{
+	outline: 1px solid red;
+	flex: 7;
 }
-section .inner .wrap article p {
-	font: 14px/1.4 "arial";
-	color: #777;
+
+section .inner .wrap .aboutme_wrap .aboutme_text H2{
+	text-align: center;
+	font-weight: bold;
 }
-section .inner .wrap article .pic {
-	width: 100%;
-	height: 120px;
-	background: #333;
-	margin-bottom: 15px;
-	position: relative;
-	overflow: hidden;
+
+section .inner .wrap .aboutme_wrap .aboutme_text p{
 }
-section .inner .wrap article .pic img {
-	object-fit: cover; /*pic프레임안에 이미지 꽉 채움*/
-	width: 100%;
-	height: 100%;
+
+
+section .inner .wrap .contact_wrap {
+	background-color: antiquewhite;
 }
+
+section .inner .wrap .contact_wrap p{
+	text-align: center;
+}
+
+
 
 
 
