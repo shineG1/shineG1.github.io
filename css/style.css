@@ -122,7 +122,7 @@ section {
 section .inner {
 	width: 80%;
 	margin: 0px auto;
-	outline: 1px solid blue;
+	/* outline: 1px solid blue; */
 }
 section .inner h1 {
 	font: bold 24px/1 "arial";
@@ -144,13 +144,13 @@ section .inner .wrap::after {
 
 section .inner .wrap .aboutme_wrap{
 	display: flex;
-	outline: 1px solid pink;
+	/* outline: 1px solid pink; */
 	/* margin: 10px; */
-	background-color: rgb(250, 139, 139);
+	/* background-color: rgb(250, 139, 139); */
 }
 
 section .inner .wrap .aboutme_wrap .aboutme_pic{
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 	flex: 3;
 	padding: 10px;
 }
@@ -161,7 +161,7 @@ section .inner .wrap .aboutme_wrap .aboutme_pic img{
 
 
 section .inner .wrap .aboutme_wrap .aboutme_text{
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 	flex: 7;
 }
 
@@ -198,11 +198,38 @@ section .inner .wrap .skillsimg {
 	
 }
 
+section .inner .wrap .container{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
 
-section .inner .wrap .portfolio img{
+section .inner .wrap .container img{
 	width: 400px;
 	height: 500px;
 	outline: 1px solid gray;
+	background-size: contain;
+}
+
+
+#pop{
+	width: 800px;
+	height: 600px;
+	background-color: #000;
+	color: white;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	text-align: center;	
+}
+
+#pop_bt{
+	cursor: pointer;
+}
+
+
+#close{
+	color: white;
 }
 
 
