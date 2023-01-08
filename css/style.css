@@ -195,10 +195,15 @@ section .inner .wrap .skillsimg {
 	display: grid;
 	grid-template-columns: 200px 200px 200px;
 	
-
+	
 }
 
 
+section .inner .wrap .portfolio img{
+	width: 400px;
+	height: 500px;
+	outline: 1px solid gray;
+}
 
 
 
