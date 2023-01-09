@@ -246,3 +246,11 @@ footer .inner {
 	margin: 0px auto;
 }
 
+        /* add */
+        #add {
+            position: fixed;
+            top: 250px;
+            right: 20px;
+            background-color: rgb(236, 194, 230);
+            width: 80px;
+        }
