@@ -204,6 +204,22 @@ section .inner .wrap .container{
 	text-align: center;
 }
 
+section .inner .wrap .container .portfolio_hmd{
+	flex-basis: 100px;
+	margin: 10px;
+	transition: all 0.3s;
+	border-radius: 15px;
+}
+
+section .inner .wrap .container .portfolio_hmd:hover{
+	box-shadow: 5px 9px #ab9f9f;
+	z-index: 1;
+	transform: scale(1.025);  
+}
+
+
+
+
 section .inner .wrap .container img{
 	width: 400px;
 	height: 500px;
@@ -254,3 +270,4 @@ footer .inner {
             background-color: rgb(236, 194, 230);
             width: 80px;
         }
+
