@@ -1,168 +1,124 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>신지원의 포트폴리오</title>
-    <script src="https://kit.fontawesome.com/c47106c6a7.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="/final.css">
+    <script src="/final.js"></script>
     <script src="https://kit.fontawesome.com/904a346929.js" crossorigin="anonymous"></script>
-    <script src="js/ie.js"></script>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
 </head>
-
 <body>
+    <div class="wrapper">
+        <!--header-->
+        <header class="navbar">
+            <h1 class="nav_logo">SJW</h1>
+            <ul class="nav_menu">
+                <li><a href="#aboutme" class="scroll_move">ABOUT ME</a></li>
+                <li><a href="#contact" class="scroll_move">CONTACT</a></li>
+                <li><a href="#skills" class="scroll_move">SKILLS</a></li>
+                <li><a href="#portfolio" class="scroll_move">PORTFOLIO</a></li>
+            </ul>
+        </header>
 
-    <header>
-        <div class="inner">
-            <h1><a href="#">SJW</a></h1>
-
-            <ul id="gnb">
-                        <li><a href="#aboutme" class="scroll_move">ABOUT ME</a></li>
-                        <li><a href="#contact" class="scroll_move">CONTACT</a></li>
-                        <li><a href="#skills" class="scroll_move">SKILLS</a></li>
-                        <li><a href="#portfolio" class="scroll_move">PORTFOLIO</a></li>
-                    </ul>
-
-            <!-- <ul class="util">
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Sitemap</a></li>
-            </ul> -->
-        </div>
-    </header>
+        <!--figure-->
+        <figure>
+            <video src="img/sky.mp4" autoplay muted loop></video>
+            <div class="inner">
+                <h1>POTENTIAL</h1>
+            </div>
+        </figure>
 
 
-    <figure>
-        <video src="img/sky.mp4" autoplay muted loop></video>
-        <div class="inner">
-            <h1>POTENTIAL</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
-                Id praesentium molestias similique quaerat magni facere in a? Adipisci, possimus reprehenderit!</p>
-            <!-- <a href="#">view detail</a> -->
-        </div>
-    </figure>
+        <!--main-->
+        <main>
 
-
-
-
-
-    <section>
-        <div class="inner">
-            <div class="wrap aboutme" id="aboutme">
-                <h1>ABOUT ME</h1>
-                
-                <div class="aboutme_wrap">
-                    <div class="aboutme_pic">
+            <div class="inner aboutme" id="aboutme">
+                <h1>about me</h1>
+                <div class="aboutme">
+                    <div class="pic">
                         <img src="img/honey.jpg" alt="">
                     </div>
-                    <div class="aboutme_text">
-                        <h2>Hello World! I'm SHIN JIWON😊</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Error excepturi nesciunt non veniam eligendi ipsa repellendus earum nisi,<br> itaque fuga exercitationem animi assumenda beatae possimus qui voluptatem, aliquid,<br> magnam quod?</p>
-                    </div> 
-                    
+                    <div class="text">
+                        <h2>hello world~ im jiwon</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Quasi dolorum in odit iure veniam nam eius numquam atque at, suscipit magnam officiis quod, eos aspernatur itaque! Accusantium modi perferendis magni.</p>
+                    </div>                    
                 </div>
             </div>
-        </div>
-        <div class="inner">
-            <div class="wrap contact" id="contact">
-                <h1>CONTACT</h1>
-                <div class="contact_wrap">
-                    <P>xxinjiwon@gmail.com</P>
-                    <P>jiwon's <a href="https://github.com/shineG1">github</a>  </P>
+
+            <div class="inner contact" id="contact">
+                <h1>contact</h1>
+                <div class="contact">
+                    <P><i class="fa-solid fa-envelope"></i>xxinjiwon@gmail.com</P>
+                    <P><i class="fa-brands fa-github"></i>jiwon's <a href="https://github.com/shineG1">github</a></P>
                 </div>
             </div>
-        </div>
-        <div class="inner">
-            <div class="wrap skills" id="skills">
-                <h1>SKILLS</h1>
-                <div class="skillsimg">
-                    <div><img src="img/html.jpg" alt=""></div>
-                    <div><img src="img/css.png" alt=""></div>
-                    <div><img src="img/js.png" alt=""></div>
-                    <div><img src="img/react.png" alt=""></div>
-                    <div><img src="img/git.png" alt=""></div>
-                    <div><img src="img/github.png" alt=""></div>
-                </div>
-            </div>
-        </div>
-        <div class="inner">
-            <div class="wrap portfolio" id="portfolio">
-                <h1>PORTFOLIO</h1>
-                <div class="container">
-                    <div class="portfolio_hmd" >
-                        <img src="img/hmd.png" alt="">
-                        <div>울산한마당</div>
-                        <div>
-                            <a href="https://github.com/shineG1/projectHMD" target='_blank'>code</a>
-                        </div>
+
+            <div class="inner skills" id="skills">
+                <h1>skills</h1>
+                <div class="skills">
+                    <div>
+                        <img src="img/html.jpg" alt="">
+                        <h2>HTML</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
                     </div>
-                    <div class="portfolio_index">
-                        <img src="img/index.JPG" alt="">
-                        <div>신지원의 포트폴리오</div>
-                        <div>
-                            <a href="https://github.com/shineG1/shineG1.github.io" target='_blank'>code</a>
-                        </div>
-
-
-                        <div id="pop_bt">
-                            자세히보기
-                        </div>
-                        <div id="pop" style="display: none;">
-                            <div style="height: 500px;">
-                                자세히보기요
-                            </div>
-                            <div>
-                                <div id="close">close</div>
-                            </div>
-
-                        </div>
-
-
-
-                    </div>   
+                    <div>
+                        <img src="img/css.png" alt="">
+                        <h2>CSS</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                    </div>
+                    <div>
+                        <img src="img/js.png" alt="">
+                        <h2>JAVASCRIPT</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                    </div>
+                    <div>
+                        <img src="img/react.png" alt="">
+                        <h2>REACT</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                    <div>
+                        <img src="img/git.png" alt="">
+                        <h2>GIT</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit..</p>
+                    </div>
+                    <div>
+                        <img src="img/github.png" alt="">
+                        <h2>GITHUB</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <footer>
-        <div class="inner">
-            <!-- <div class="upper">
-                <h1>DCODELAB</h1>
-                <ul>
-                    <li><a href="#">Policy</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Family Site</a></li>
-                    <li><a href="#">Sitemap</a></li>
-                </ul>
+            <div class="inner portfolio" id="portfolio">
+                <h1>portfolio</h1>
+                <div class="portfolio">
+                    <div class="hanmadang">
+                        <img src="img/hmd.png" alt="">
+                        <h2>울산한마당</h2>
+                        <div><a href="https://github.com/shineG1/projectHMD" target='_blank'>code</a> <a href="https://github.com/shineG1/projectHMD" target='_blank'>자세히</a></div>
+                        
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="lower">
-                <address>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, facere.<br>
-                    TEL : 031-111-1234 C.P : 010-1234-5678
-                </address>
-                <p>
-                    2020 DOCDELAB &copy; copyright all right reserved.
-                </p>
-            </div> -->
-        </div>
-    </footer>
+        </main>
 
-<div>
-    <ul id="add">
-        <li><a href="#aboutme" class="scroll_move">ABOUT ME</a></li>
-        <li><a href="#contact" class="scroll_move">CONTACT</a></li>
-        <li><a href="#skills" class="scroll_move">SKILLS</a></li>
-        <li><a href="#portfolio" class="scroll_move">PORTFOLIO</a></li>
-    </ul>
-</div>
+        <!--footer-->
+        <footer>
 
+        </footer>
 
+        <!--aside-->
+        <aside>
+
+        </aside>
+    </div>
 </body>
-
 </html>

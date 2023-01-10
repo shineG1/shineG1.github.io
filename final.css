@@ -1,0 +1,193 @@
+@charset 'utf-8';
+/*공통*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: initial;
+}
+
+body{
+    background-color: rgb(175, 218, 255);
+}
+
+/*header*/
+.navbar{
+    width: 100%;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+}
+.navbar .nav_logo{
+    outline: 1px solid red;
+    /* position: absolute; */
+    left: 10%;
+    flex: 2;
+}
+.navbar .nav_menu{
+    display: flex;
+    outline: 1px solid red;
+    /* position: absolute; */
+    flex: 8;
+}
+.navbar .nav_menu li a{
+    padding: 20px 40px;
+}
+.navbar .nav_menu li a:hover{
+    background: blue;
+    color: white;
+}
+
+
+
+/*figure*/
+figure{
+    width: 100%;
+    height: calc(100vh - 120px); /*전체 브라우저 높이에서 120px만큼 빼줌*/
+    background: blue;
+    position: relative;
+    overflow: hidden;
+}
+figure video{
+    object-fit: fill;
+    object-fit: cover;
+    /* object-fit: contain; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+figure .inner {
+	width: 100%;
+	margin: 0px auto;
+	position: relative;
+    top: 100px;
+    left: 0;
+}
+figure .inner h1{
+    color: white;
+    /* margin-bottom: 20px; */
+    font-weight: 900;
+    font-size: 200px;
+    /* opacity: 0.3; */
+}
+
+
+
+/*main*/
+main{
+    width: 100%;
+    padding: 200px 0;
+}
+main .inner{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+    /* outline: 1px solid red; */
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+main .inner h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+/*aboutme*/
+
+main #aboutme .aboutme{
+    display: flex;
+    /* outline: 1px solid red; */
+}
+main #aboutme .aboutme .pic > img{
+    width: 500px;
+}
+main #aboutme .aboutme .text{
+    margin: 0 30px;
+}
+
+/*contact*/
+main #contact .contact p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+main #contact .contact i{
+    color: black;
+    margin-right: 8px;
+}
+
+/*skills*/
+main #skills .skills{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+}
+main #skills .skills div{
+    text-align: center;
+    /* margin-bottom: 20px;
+    margin-right: 20px; */
+    /* outline: 1px solid gray; */
+    padding: 20px;
+}
+main #skills .skills img{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+/*portfolio*/
+
+
+
+main #portfolio .portfolio{
+    /* outline: 1px solid orange; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+main #portfolio .portfolio .hanmadang{
+    /* outline: 1px solid purple; */
+    /* flex-basis: 100px; */
+    transition: all 0.5s;    
+    border-radius: 10px;
+}
+/* main #portfolio .portfolio .hanmadang:hover{
+    box-shadow: 5px 5px rgb(207, 206, 206);
+    z-index: 1;
+    transform: scale(1.005);
+} */
+main #portfolio .portfolio .hanmadang img{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+main #portfolio .portfolio .hanmadang div:not(1) {
+    outline: 1px solid bisque;
+    background-color: antiquewhite;
+    width: 80px;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+
+
+
+
