@@ -27,7 +27,7 @@ a{
     color: initial;
 }
 body{
-    background-color: rgb(226, 239, 250);
+    background-color: #F1FAFF;
 }
 
 
@@ -38,7 +38,7 @@ body{
     height: 80px;
     justify-content: center;
     position: fixed;
-    background-color: rgb(226, 239, 250);
+    background-color: #F1FAFF;
     z-index: 9999;
     }
     .navbar .nav_logo{
@@ -56,7 +56,7 @@ body{
     padding: 20px 40px;
     }
     .navbar .nav_menu li a:hover{
-    color: blue;
+    color: #0095FA;
     transition: all 0.8s;
     font-weight: bold;
     }
@@ -123,9 +123,11 @@ main .inner h1{
 main #aboutme .aboutme{
     display: flex;
     justify-content: center;
+  
 }
 main #aboutme .aboutme .pic > img{
     width: 500px;
+    border-radius: 15px;
 }
 main #aboutme .aboutme .text{
     margin: 0 30px;
@@ -133,6 +135,17 @@ main #aboutme .aboutme .text{
 main #aboutme .aboutme .text > p{
     margin: 20px 0;
 }
+
+main #aboutme .aboutme .text div {
+    /* outline: 1px solid red; */
+    margin-top: 200px;
+}
+
+main #aboutme .aboutme .text div i{
+    /* outline: 1px solid red; */
+    margin-right: 8px;
+}
+
 
 
 
@@ -173,11 +186,13 @@ main #portfolio .portfolio{
 main #portfolio .portfolio .hanmadang{
     border-radius: 10px;
     margin-right: 30px;
+    width: 400px;
 }
 main #portfolio .portfolio img{
     width: 400px;
     height: 500px;
     border-radius: 10px;
+    outline: 1px solid rgb(236, 236, 236);
 }
 main #portfolio .portfolio h3{
     margin: 10px 0;
@@ -188,8 +203,8 @@ main #portfolio .portfolio  ul{
     margin: 10px 0;
 }
 main #portfolio .portfolio li {
-    outline: 1px solid bisque;
-    background-color: antiquewhite;
+    outline: 1px solid #7C9EC0;
+    background-color: #B2D4F9;
     width: 80px;
     border-radius: 3px;
     padding: 3px 0;
@@ -206,7 +221,7 @@ footer{
 footer a i{
     margin: 20px 0;
     font-weight: bold;
-    color: rgb(32, 133, 228);
+    color: #0095FA;
 }
 
 
