@@ -337,7 +337,13 @@ footer a i{
     main #portfolio .portfolio img{
         width: 100%;
         border-radius: 10px;
-        outline: 1px solid rgb(236, 236, 236);
+    }
+    main #portfolio .portfolio li {
+        background-color: #B2D4F9;
+        width: 80px;
+        border-radius: 3px;
+        padding: 3px 0;
+        margin-left: 10px;
     }
     footer{
         height: 200px;
