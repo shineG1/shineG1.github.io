@@ -17,3 +17,12 @@ $(document).ready(function($) {
     });
   
   });
+
+
+ const introText = document.querySelectorAll("h1");
+
+window.onload = () => {
+  introText.forEach((item) => {
+    item.style.animation = `fade 3000ms forwards`;
+  });
+};
